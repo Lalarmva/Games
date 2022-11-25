@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: repeat;
+}
+
+.lala-header {
+    background-color: transparent !important;
+    padding-top: 45px !important;
+}
+
+.lala-header img {
+    width: 243px !important;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.lala-header img:hover {
+    border: 1px solid rgb(253, 133, 4);
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 1px 2px 7px 8px rgb(250, 242, 13);
+}
+
+.lala-header .butonlar {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.lala-header .butonlar a {
+    color: black;
+    background-color: rgb(250, 142, 11);
+    padding: 10px;
+    border-radius: 14px;
+    margin-left: 15px;
+}
+
+.lala-header .butonlar a:hover {
+    background-color: rgb(211, 247, 162);
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 1px 2px 7px 8px rgb(250, 242, 13);
+}
+
+.lala-header .daxil-ol button {
+    width: 100px;
+    color: black;
+    text-align: center;
+    background-color: rgb(250, 142, 11);
+    padding: 10px;
+    border-radius: 14px;
+    margin-left: 15px;
+}
+
+.lala-header .daxil-ol button:hover {
+    background-color: rgb(211, 247, 162);
+    border: 1px solid rgb(253, 133, 4);
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 1px 2px 7px 8px rgb(250, 242, 13);
+}
+
+.lala-oyunlar .opsi-box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 45px 0;
+}
+
+.lala-oyunlar .opsi-box::after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 389px;
+    background-color: #f9a806;
+    bottom: 0px;
+    border-radius: 16px;
+}
+
+.lala-oyunlar .opsi-box .opsi-qutu {
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+    box-shadow: 0 0 5px 5px #f9a806;
+    padding: 0;
+    margin: 20px;
+}
+
+.lala-oyunlar .opsi-box .opsi-qutu a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    vertical-align: middle;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.lala-oyunlar .opsi-box .opsi-qutu a img:hover {
+    box-shadow: 0 0 5px 5px rgb(211, 247, 162);
+}
+
+.footerim {
+    font-family: "Comfortaa", cursive;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px 16px 0 0;
+    margin-top: 172px;
+}
+
+.footerim .footerimin-qutusu {
+    border-bottom: none;
+}
+
+.footerim .footerimin-qutusu ul li a {
+    font-family: "Comfortaa", cursive;
+    color: black !important;
+    font-size: 18px !important;
+    opacity: 0.8;
+}
+
+.footerim .footerimin-qutusu ul li a:hover {
+    text-decoration: none;
+    color: aliceblue !important;
+}
+
+.footerim .footerimin-qutusu .footerimin-titeli {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px !important;
+}
